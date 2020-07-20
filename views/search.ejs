@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="/javascripts/search.js" defer></script>
+  <title>Buscar</title>
+</head>
+<body>
+  <h1>Buscar</h1>
+  
+<form action="/ajax/search" method="get">
+  <input type="search" name="search" id="search" placeholder= "Buscar Gif">
+  <input type="number" name="number" id="numero" placeholder="Ingresar el número de gifs que quiere ver">
+  <button type="submit" id="boton">Buscar</button> 
+  
+</form>
+
+<ol id="lista"></ol>
+</body>
+</html>
